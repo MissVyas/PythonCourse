@@ -1,0 +1,7 @@
+a = raw_input("a : ")
+b = raw_input("b : ")
+b = int(a) + int(b)
+a = int(b) - int(a)
+b = int(b) - int(a)
+print("a : "+str(a))
+print("b : "+str(b))
